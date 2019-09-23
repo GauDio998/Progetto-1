@@ -5,7 +5,7 @@ if(isset($_GET["name"]))
     if(!empty($_GET["name"]))
     {
     	$stringa_decodificata = urlencode($name);
-    	$url = "http://localhost/ricette/ws/GetIngrediente.php?name=".$stringa_decodificata;
+    	$url = "http://pastopasto.herokuapp.com/ws/GetIngrediente.php?name=".$stringa_decodificata;
     	$pagina = file_get_contents($url);
 		// json_decode interpreta il file json
 		$data = json_decode($pagina,true);

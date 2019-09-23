@@ -8,7 +8,7 @@ if(isset($_GET["name"]))
     if(!empty($name))
     {
     	$stringa_decodificata = urlencode($name);
-    	$url = "http://localhost/ricette/ws/GetLettera.php?name=".$stringa_decodificata;
+    	$url = "http://pastopasto.herokuapp.com/ws/GetLettera.php?name=".$stringa_decodificata;
 		$pagina = file_get_contents($url);
 		$data = json_decode($pagina,true);
 		echo "<br>";
