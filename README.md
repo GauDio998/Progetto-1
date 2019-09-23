@@ -1,2 +1,1 @@
-# Progetto
-progetto di piattaforme digitali del territorio
+# Progetto  piattaforme digitali del territorio
