@@ -22,8 +22,7 @@ Il file è scritto in php e contiene due funzioni :
 Il file è scritto in php; Accoda all'url https://www.themealdb.com/api/json/v1/1/search.php?f= la lettera  inserita dell'utente, lo passa alla funzione getData spiegata sopra e controlla il risultato:
 - se la lista dei pasti trovati è vuota, la funzione deliver_response viene richiamata con i parametri 204, assente e NULL.
 
-![ lettera 2]( lettera 2.png)
-
+![ lettera 2]( lettera2.png)
 - se nella lista dei pasti trovati è presente almeno un pasto, la funzione deliver_response viene richiamata con i parametri 200, presente e le info trovate.
 - se invece il campo nome è stato lasciato vuoto, la funzione deliver_response viene richiamata con i parametri 400, errore e NULL.
  
