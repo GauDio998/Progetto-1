@@ -1,5 +1,5 @@
 # Progetto  piattaforme digitali del territorio
-#Descrizione
+# Descrizione
 Creazione di un web service in grado di ricercare la ricetta di un pasto dato una lettera oppure un ingrediente.
 
 Nella ricerca attraverso la lettera verranno mostrati come risultato : il nome del pasto, l'immagine, la ricetta, gli ingredienti e le dosi.
@@ -48,7 +48,7 @@ Quando si inserisce il valore nel campo della lettera o dell'ingrediente e si es
 # Documentazione API
 * GetLettera.php : URL -> http://localhost/ricette/client/ListaLettera.php?name=
 , la lettera che l'utente vuole cercare viene acquisito attraverso il metodo GET.
-* GetIngrediente .php: URL ->http://localhost/ricette/client/ListaIngrediente.php?name=egg
+* GetIngrediente .php: URL ->http://localhost/ricette/client/ListaIngrediente.php?name=
 , l'ingrediente che l'utente vuole cercare viene acquisito attraverso il metodo GET.
 
 
