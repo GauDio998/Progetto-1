@@ -22,24 +22,24 @@ Il file è scritto in php e contiene due funzioni :
 Il file è scritto in php; Accoda all'url https://www.themealdb.com/api/json/v1/1/search.php?f= la lettera  inserita dell'utente, lo passa alla funzione getData spiegata sopra e controlla il risultato:
 - se la lista dei pasti trovati è vuota, la funzione deliver_response viene richiamata con i parametri 204, assente e NULL.
 
-![lettera2](letter2.png)
+![ lettera 2]( lettera 2.png)
 
 - se nella lista dei pasti trovati è presente almeno un pasto, la funzione deliver_response viene richiamata con i parametri 200, presente e le info trovate.
 - se invece il campo nome è stato lasciato vuoto, la funzione deliver_response viene richiamata con i parametri 400, errore e NULL.
  
- ![lettera3](lettera3)
+ ![lettera 3]( lettera3.png)
 
 Contiene poi la funzione get_meals che ha come parametro il risultato completo della ricerca dei pasti e restituisce solo una parte di tutte le informazioni.
 ## GetIngrediente.php
 Il file è scritto in php; Accoda all'url https://www.themealdb.com/api/json/v1/1/filter.php?i=il nome dell'ingrediente che l'utente vuole cercare, lo passa alla funzione getData e controlla il risultato:
 - se la lista dei pasti trovati è vuota, la funzione deliver_response viene richiamata con i parametri 204, assente e NULL.
 
- ![ingrediente2](ingrediente2)
+![ingrediente2](ingrediente2.png)
 
 - se nella lista dei pasti trovati è presente almeno un pasto, la funzione deliver_response viene richiamata con i parametri 200, presente e le info trovate.
 - se invece il campo nome è stato lasciato vuoto, la funzione deliver_response viene richiamata con i parametri 400, errore e NULL.
  
- ![ingrediente3](ingrediente3)
+![ingrediente3](ingrediente3.png)
  
 Contiene poi la funzione get_meals che ha come parametro il risultato completo della ricerca dei pasti e restituisce solo una parte di tutte le informazioni.
 # Comunicazioni
