@@ -1,5 +1,7 @@
-# Progetto  piattaforme digitali del territorio# Descrizione
+# Progetto  piattaforme digitali del territorio
+#Descrizione
 Creazione di un web service in grado di ricercare la ricetta di un pasto dato una lettera oppure un ingrediente.
+
 Nella ricerca attraverso la lettera verranno mostrati come risultato : il nome del pasto, l'immagine, la ricetta, gli ingredienti e le dosi.
 Mentre la ricerca attraverso un ingrediente darà come risultato il nome del pasto contenente l'ingrediente, la sua immagine e la ricetta 
 # Architettura
