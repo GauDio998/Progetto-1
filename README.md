@@ -60,8 +60,8 @@ strMeasure20 ":" "," strSource ":" "," dateModified ": null}, {" idMeal ":" 5288
 
 # Esempio : ricerca pasto attraverso la lettera
 http://localhost/ricette/client/ListaLettera.php?name=a
- 
-
+ ![Not found name](notFoundName.png)
+![lettera1](lettera1.png)!
 # Esempio : ricerca pasto attraverso l'ingrediente
 http://localhost/ricette/client/ListaIngrediente.php?name=egg
 
