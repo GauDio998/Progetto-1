@@ -1,4 +1,7 @@
 # Progetto  piattaforme digitali del territorio
+
+Riccardo Agostini Matricola n°284966
+
 # Descrizione
 Creazione di un web service in grado di ricercare la ricetta di un pasto dato una lettera oppure un ingrediente.
 
