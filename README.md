@@ -1,4 +1,4 @@
-# Progetto  piattaforme digitali del territorio
+# Progetto  piattaforme digitali per la gestione del territorio
 
 Riccardo Agostini Matricola n°284966
 
